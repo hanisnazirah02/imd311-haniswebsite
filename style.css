@@ -1,0 +1,256 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.main{
+    width: 100%;
+    background:url(image/background.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    font-family: sans-serif;
+}
+
+.navbar{
+    width: 86%;
+    display: flex;
+    margin: auto;
+    padding: 15px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar logo{
+    width: 160px;
+    cursor: pointer;
+    margin-top: -3%;
+    margin-left: -2%
+}
+
+ul{
+    margin-top: -4%;
+}
+
+ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 16px;
+}
+
+ul li a{
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    color:blueviolet;
+    margin-top: -3%;
+    transition: .4s ease;
+
+}
+
+ul li a:hover{
+    color:rgb(230,104,59)
+}
+
+.info{
+    margin-left: 7%;
+    margin-top: 6%;
+}
+
+.info h1{
+    font-size: 65px;
+    color:rgb(36,32,30);
+}
+
+.info h3{
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 24px;
+}
+
+.info span{
+    color: goldenrod;
+}
+
+.info a{
+    text-decoration: none;
+    color: #fff;
+    background:rgb(36,32,30);
+    margin: 26px 0;
+    padding: 10px 18px;
+    border-radius: 10px;
+    display: inline-block;
+    transition: .4s ease;
+}
+
+.info a:hover{
+    background:rgb(230,104,59);
+}
+
+.image{
+    width: 30%;
+    height: 60%;
+    position: absolute;
+    right: 100px;
+    bottom: 0;
+}
+
+.image img{
+    position: absolute;
+    height: 140%;
+    left: 40;
+    transform: translate(-50%);
+    bottom: 0;
+    transition: left 2s ease;
+}
+
+.image:hover .girl{
+    left: 20%;
+}
+
+.icons a{
+    text-decoration: none;
+    color:aqua;
+}
+
+.icons ion-icon{
+    margin-left: 7%;
+    color: #000;
+    margin-right: -60px;
+    font-size: 40px;
+
+}
+
+.icons ion-icon:hover{
+    color: rgb(59,174,209);
+}
+
+/* About Section */
+
+.about{
+    text-align: center;
+}
+
+.about p{
+    font-size: 13px;
+}
+
+/* Education Section */
+
+.center{
+    text-align: center;
+}
+
+.box{
+    text-align: center;
+    
+}
+
+.myedu{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    
+}
+.edu{
+    padding: 32px;
+    text-align: center;  
+}
+#education{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    text-align: justify;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 10px;
+}
+.line{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+.textbox{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 150px;
+    border: 1px solid rgba(0, 0, 0, 0);
+    margin: 10px;
+    align-items: center;
+    text-align: justify;
+    font-size: medium;
+    padding: 10px;
+    border-radius: 15px;
+    background: linear-gradient(to top, rgba(245, 170, 95, 0.753) 50%, rgba(255, 255, 255, 0.291) 50%);
+    background-size: 100% 200%;
+    transition: all .8s;
+} 
+.textbox:hover{
+    background-position: left bottom;
+    color: rgba(0, 0, 0, 0.551);
+    border: none;
+    box-shadow: 0 0 20px rgba(233, 113, 94, 0.814);
+}
+.textbox img{
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+}
+
+.textbox h1{
+    font-size: 12px;
+}
+
+/* Work Experience Section */
+
+.work{
+    position: relative;
+    text-align: center;  
+}
+#experience{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    text-align: justify;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 10px;
+}
+.row{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 250px;
+    border: 1px solid rgba(0, 0, 0, 0);
+    margin: 10px;
+    align-items: center;
+    text-align: justify;
+    font-size: medium;
+    padding: 10px;
+    border-radius: 15px;
+    background: linear-gradient(to top, rgba(239, 172, 104, 0.753) 50%, rgba(255, 255, 255, 0.291) 50%);
+    background-size: 100% 200%;
+    transition: all .8s;
+} 
+.box:hover{
+    background-position: left bottom;
+    color: rgba(0, 0, 0, 0.551);
+    border: none;
+    box-shadow: 0 0 20px rgba(255, 122, 78, 0.814);
+}
+.box img{
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+}
+
+.box h1{
+    font-size: 14px;
+}
